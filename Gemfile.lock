@@ -1,10 +1,11 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     builder (3.1.4)
     jwt (0.1.8)
       multi_json (>= 1.5)
     multi_json (1.7.2)
+    newrelic_rpm (3.6.0.83)
     rack (1.5.2)
     twilio-ruby (3.9.0)
       builder (>= 2.1.2)
@@ -15,5 +16,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  newrelic_rpm
   rack
   twilio-ruby
