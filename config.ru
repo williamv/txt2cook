@@ -13,7 +13,6 @@ run lambda { |env|
   ]
 }
 
-
 configure :production do
   require 'newrelic_rpm'
 end
