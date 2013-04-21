@@ -12,9 +12,3 @@ run lambda { |env|
     File.open('public/index.html', File::RDONLY)
   ]
 }
-
-configure :production do
-  require 'newrelic_rpm'
-end
-
-heroku config:set RACK_ENV=production
